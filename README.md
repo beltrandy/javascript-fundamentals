@@ -143,11 +143,65 @@ function closureStart() {
     function display() {
         alert(topic);
     }
-    
+
     return display;
 }
 
 var myClosure = closureStart();
 
 myClosure();
+```
+
+## Arrays and Objects
+
+```javascript
+let myString = 'Hello';
+let myString2  = "Hello World";
+let myString3 = `Hi ${myString}`;
+
+let myNum = 4;
+
+let isGood = true;
+
+let myShoppingList = ['Flour', 'Sugar', 'Eggs'];
+let myShoppingList2 = {
+  0: 'Flour',
+  1: 'Sugar',
+  2: 'Eggs'
+};
+let myInformation = {
+  street: 'Main St',
+  phone: '(555) 555-5555',
+  state: 'CA'
+};
+let myPoints = [
+  {
+    x: 1,
+    y:1
+  },
+  
+];
+let myPoints2 = [
+  [1,1]
+];
+
+let myFriendsList = [
+  {
+    name: 'Sally',
+    list: [{
+      product: 'Cake',
+      brand: 'Betty Crocker'
+    }]
+  }
+];
+
+let storeCustomers = {
+  Walmart: myFriendsList
+  
+};
+
+let scores = {
+  2009: [89, 79]
+};
+let scores2 = [[89, 79], [88, 78]];
 ```
